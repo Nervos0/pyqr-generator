@@ -1,7 +1,7 @@
 
 # QR CODE GENERATOR
 # Author: https://github.com/Nervos0
-# Version: 0.1
+# Version: 1.0
 
 # Importing libraries
 
@@ -13,5 +13,5 @@ from pyqrcode import QRCode
 # QR Code generation
 
 url=input("[*] Enter the URL> ")    # Enter the URL which represents the QR code
-qr=pyqrcode.create(url)             # Generate QR code 
+qr=pyqrcode.create(url)             # Generate QR code
 qr.png('myqr.png', scale = 6)       # Save the qr in "myqr.png"
