@@ -13,5 +13,5 @@ from pyqrcode import QRCode
 # QR Code generation
 
 url=input("[*] Enter the URL> ")    # Enter the URL which represents the QR code
-qr=pyqrcode.create(url)             # Generate QR code
+qr=pyqrcode.create(url)             # Generate QR code 
 qr.png('myqr.png', scale = 6)       # Save the qr in "myqr.png"
